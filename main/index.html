@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Void Studio — Web Design & Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">VOID<span class="logo-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact" class="nav-cta">Start a project</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid-bg" id="heroBg"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Web Design & Development Studio</div>
+      <h1 class="hero-title">
+        We build websites<br />
+        <span class="hero-accent">that convert.</span>
+      </h1>
+      <p class="hero-sub">
+        Void Studio crafts fast, beautiful digital products for businesses
+        that refuse to settle for templates. From landing pages to full-stack
+        platforms — built to perform.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start a project</a>
+        <a href="#work" class="btn btn-ghost">See our work ↓</a>
+      </div>
+    </div>
+    <div class="hero-mockup-wrap">
+      <div class="mockup-browser">
+        <div class="browser-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <div class="browser-url">voidstudio.com/client-demo</div>
+        </div>
+        <div class="browser-body">
+          <div class="mock-nav-strip"></div>
+          <div class="mock-hero-block">
+            <div class="mock-h1"></div>
+            <div class="mock-h2"></div>
+            <div class="mock-btn"></div>
+          </div>
+          <div class="mock-cards">
+            <div class="mock-card"></div>
+            <div class="mock-card"></div>
+            <div class="mock-card"></div>
+          </div>
+          <div class="mock-footer-strip"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>Landing Pages</span><span class="sep">·</span>
+      <span>E-commerce</span><span class="sep">·</span>
+      <span>SaaS Dashboards</span><span class="sep">·</span>
+      <span>Brand Identity</span><span class="sep">·</span>
+      <span>Custom Platforms</span><span class="sep">·</span>
+      <span>Mobile-First Design</span><span class="sep">·</span>
+      <span>Performance Audits</span><span class="sep">·</span>
+      <span>SEO Optimisation</span><span class="sep">·</span>
+      <span>Landing Pages</span><span class="sep">·</span>
+      <span>E-commerce</span><span class="sep">·</span>
+      <span>SaaS Dashboards</span><span class="sep">·</span>
+      <span>Brand Identity</span><span class="sep">·</span>
+      <span>Custom Platforms</span><span class="sep">·</span>
+      <span>Mobile-First Design</span><span class="sep">·</span>
+      <span>Performance Audits</span><span class="sep">·</span>
+      <span>SEO Optimisation</span><span class="sep">·</span>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Selected Work</div>
+        <h2 class="section-title">Built for businesses<br />that mean it.</h2>
+      </div>
+      <div class="work-grid">
+        <div class="work-card work-card--large" data-tag="E-commerce">
+          <div class="work-card-bg" style="--hue:240"></div>
+          <div class="work-card-content">
+            <div class="work-tag">E-commerce</div>
+            <h3>Halcyon Goods</h3>
+            <p>Luxury homeware brand — 340% increase in online sales post-launch.</p>
+          </div>
+        </div>
+        <div class="work-card" data-tag="SaaS">
+          <div class="work-card-bg" style="--hue:280"></div>
+          <div class="work-card-content">
+            <div class="work-tag">SaaS</div>
+            <h3>Meridian Analytics</h3>
+            <p>B2B dashboard platform. Built from wireframe to production in 6 weeks.</p>
+          </div>
+        </div>
+        <div class="work-card" data-tag="Brand + Web">
+          <div class="work-card-bg" style="--hue:200"></div>
+          <div class="work-card-content">
+            <div class="work-tag">Brand + Web</div>
+            <h3>Solace Clinic</h3>
+            <p>Medical practice rebrand and booking system integration.</p>
+          </div>
+        </div>
+        <div class="work-card work-card--wide" data-tag="Platform">
+          <div class="work-card-bg" style="--hue:160"></div>
+          <div class="work-card-content">
+            <div class="work-tag">Platform</div>
+            <h3>Vestige Marketplace</h3>
+            <p>Full-stack peer-to-peer marketplace — 12k users in month one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">What we do</div>
+        <h2 class="section-title">Every business<br />needs a different weapon.</h2>
+      </div>
+      <div class="services-list">
+        <div class="service-item">
+          <div class="service-num">01</div>
+          <div class="service-body">
+            <h3>Design & Branding</h3>
+            <p>Visual systems, logos, colour palettes, typography — a complete identity that owns its space and scales across every touchpoint.</p>
+          </div>
+          <div class="service-icon">◈</div>
+        </div>
+        <div class="service-item">
+          <div class="service-num">02</div>
+          <div class="service-body">
+            <h3>Web Development</h3>
+            <p>Hand-coded, fast, accessible sites and apps. No bloated page builders. Every line of code written with intent.</p>
+          </div>
+          <div class="service-icon">⌥</div>
+        </div>
+        <div class="service-item">
+          <div class="service-num">03</div>
+          <div class="service-body">
+            <h3>E-commerce</h3>
+            <p>Custom storefronts engineered to convert. From product pages to checkout — optimised at every friction point.</p>
+          </div>
+          <div class="service-icon">⌘</div>
+        </div>
+        <div class="service-item">
+          <div class="service-num">04</div>
+          <div class="service-body">
+            <h3>SEO & Performance</h3>
+            <p>Search visibility and Core Web Vitals scores that compound over time. Speed is a feature, not an afterthought.</p>
+          </div>
+          <div class="service-icon">◎</div>
+        </div>
+        <div class="service-item">
+          <div class="service-num">05</div>
+          <div class="service-body">
+            <h3>Ongoing Support</h3>
+            <p>Monthly retainers covering hosting, updates, A/B tests, and iterative improvements. We stay in the foxhole.</p>
+          </div>
+          <div class="service-icon">∞</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">How it works</div>
+        <h2 class="section-title">From brief to<br />browser in weeks.</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="process-step-header">
+            <div class="process-node">Discovery</div>
+            <div class="process-line"></div>
+          </div>
+          <p>We dig into your business, your market, and your users. No assumptions — only informed decisions.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-header">
+            <div class="process-node">Design</div>
+            <div class="process-line"></div>
+          </div>
+          <p>Full high-fidelity mockups before a line of code is written. You see exactly what you're getting.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-header">
+            <div class="process-node">Build</div>
+            <div class="process-line"></div>
+          </div>
+          <p>Precise, performant development. Staging previews throughout so nothing is a surprise.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-header">
+            <div class="process-node active">Launch</div>
+          </div>
+          <p>Deployment, handoff, and a 30-day post-launch window. We're there until it's solid.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat">
+        <div class="stat-num" data-target="47">0</div>
+        <div class="stat-label">Projects delivered</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num" data-target="98">0</div>
+        <div class="stat-label">Client satisfaction</div>
+        <div class="stat-suffix">%</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num" data-target="4">0</div>
+        <div class="stat-label">Avg. weeks to launch</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num" data-target="6">0</div>
+        <div class="stat-label">Years in business</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-left">
+          <div class="section-label">Contact</div>
+          <h2 class="section-title">Ready to build<br />something real?</h2>
+          <p class="contact-sub">Tell us about your project. We'll get back to you within one business day — no sales scripts, no runaround.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="cd-label">Email</span>
+              <span class="cd-val">voidstudios111@gmail.com</span>
+            </div>
+            <div class="contact-detail">
+              <span class="cd-label">Based in</span>
+              <span class="cd-val">Belgrade · Remote worldwide</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="contact-form-wrap">
+            <div id="formSuccess" class="form-success" style="display:none">
+              <div class="success-icon">✓</div>
+              <h3>Message received.</h3>
+              <p>We'll be in touch within 24 hours.</p>
+            </div>
+            <form id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" novalidate>
+              <input type="hidden" name="form-name" value="contact" />
+              <p style="display:none"><input name="bot-field" /></p>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your name *</label>
+                  <input type="text" id="name" name="name" placeholder="Alex Kovač" />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address *</label>
+                  <input type="email" id="email" name="email" placeholder="alex@company.com" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" placeholder="Acme Inc." />
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget range</label>
+                <select id="budget" name="budget">
+                  <option value="">Select a range…</option>
+                  <option value="<5k">Under $5,000</option>
+                  <option value="5-15k">$5,000 – $15,000</option>
+                  <option value="15-50k">$15,000 – $50,000</option>
+                  <option value="50k+">$50,000+</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Project description *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us what you're building — even a rough idea is enough to start."></textarea>
+              </div>
+              <div class="form-error" id="formError"></div>
+              <button type="button" class="btn btn-primary btn-full" id="submitBtn" onclick="submitForm()">
+                Send message <span class="btn-arrow">→</span>
+              </button>
+              <p class="form-note">We read every message personally. No bots, no templates.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a href="#" class="logo">VOID<span class="logo-dot">.</span></a>
+        <nav class="footer-nav">
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Void Studio. All rights reserved.</span>
+        <span>Crafted with precision.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
